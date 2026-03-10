@@ -1,0 +1,19 @@
+{
+  "rewrites": [
+    {
+      "source": "/v1/contribuyente/gre/comprobantes/descargaqr",
+      "destination": "/v1/contribuyente/gre/comprobantes/20609196816-09-EG07-1030.pdf"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/v1/contribuyente/gre/comprobantes/20609196816-09-EG07-1030.pdf",
+      "headers": [
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=\"20609196816-09-EG07-1030.pdf\""
+        }
+      ]
+    }
+  ]
+}
